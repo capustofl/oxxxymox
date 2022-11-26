@@ -1,0 +1,55 @@
+
+body {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: black;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+.fortuneWheel {
+    display: flex;
+    background-image: url(oxxxymiron.png);
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat:no-repeat;
+    background-size: 600px;
+    width: 500px;
+    height: 500px;
+    border: 5px solid;
+    border-color: white;
+    border-radius: 50%;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    animation-name: rotation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
+
+
+
+button {
+    background-color: black
+}
+ 
+p {
+    font-size: 42pt;
+    font-family: 'Courier New', Courier;
+    color: white
+}
+.imp {
+    margin-top: 150px;
+}
+  
